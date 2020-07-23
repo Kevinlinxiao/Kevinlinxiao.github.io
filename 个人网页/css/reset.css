@@ -1,0 +1,38 @@
+/* 预设样式 */
+
+/* 重新设置body字体边距样式 */
+body{
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+/* 清除浮动 */
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* 左浮动 */
+.fl{
+  float: left;
+}
+
+/* 右浮动 */
+.fr{
+  float: right;
+}
+
+/* 图片自适应 */
+.auto-img{
+  display: block;
+  width: 100%;
+}
